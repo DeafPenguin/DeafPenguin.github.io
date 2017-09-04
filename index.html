@@ -1,7 +1,11 @@
 <!DOCTYPE html> <html>
-
-
 	<head>
+
+	<!-- Required meta tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
 	<!-- Inserindo o arquivo CSS -->
 
@@ -19,6 +23,17 @@
 	type="text/css"
 	rel="stylesheet">
 
+
+
+        <style>
+            .container {
+                margin-right: auto;
+                margin-left: 0px;
+                padding-right: 15px;
+                padding-left: 15px;
+                width: 100%;
+            }
+        </style>
 
 
 	<title>Penguin's Blog</title>
@@ -44,12 +59,46 @@
 
 	<body>
 
-	<p>Sejam bem vindos ao meu blog, vou relatar um pouco sobre a criação do meu primeiro website.
+
+	<h3>Bem vindos ao meu miniblog!</h3>
+        <p>Meu nome é Victor Murilo Balbino Machado, sou natural de Goiânia/GO - Brasil, nasci na data de 30 de Junho de 1993.
+        </br>Quando eu estava na 1ª série (atual segundo ano do ensino infantil), descobriram que eu tinha deficiência auditiva.
+        </br>Sempre fui muito "na minha" por conta de minha personalidade e de minha limitação de socializar com as pessoas e
+        isso fez com que eu me tornasse muito apegado a leituras e eletrônicos, o que afiou minha capacidade linguística e lógica. Sempre foi meu forte o raciocínio lógico, por isso que na minha infância pensava em ser professor de matemática.
+        </br>Com o tempo passando, e a formatura do ensino médio chegando, optei por mergulhar no mundo da informática por ser também a minha diversão.
+        Foi então quando eu me inscrevi para participar de um minicurso de programação básica que foi oferecida pela Universidade Federal de Goiás, da qual me capacitaria para participar das Olímpiada Brasileira de Informática.
+        Infelizmente não passei na prova qualificadora, mas foi o suficiente para me mostrar que eu queria aprender a programar! 
+        Nesse mesmo período, eu fiz o vestibular para o curso de Sistemas de Informação e fui aprovado, e desde então eu estudo na UFG. 
+        Minha meta no momento é me formar e começar a trabalhar em pesquisas voltadas a tecnologia para deficientes, com mais foco na deficiência auditiva.</p>
+
+
+        <h3>Habilidades:</h3>
+        <ul>
+            <li>Linguística:
+                <ul>
+		    <li>Português </li>
+                    <li>Inglês </li>
+                    <li>LIBRAS - Linguagem Brasileira de Sinais.</li>
+                </ul>
+            <li>Informática:
+                <ul>
+                    <li>C</li>
+                    <li>Java</li>
+                    <li>Swift</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Android</li>
+                    <li>SQL</li>
+                </ul>
+        </ul>
+
+	<p>Na seção abaixo, vou relatar um pouco sobre a criação do meu primeiro website.
 
 	</br>O site da <a href="https://www.codecademy.com/" target="_blank">Codeacademy</a> é quem está me proporcionando essa experiência, que por sinal é de boa qualidade!</p>
 
+
 	
-	<h2>Coisas que aprendi até o momento:</h2>
+	<h3>Coisas que aprendi até o momento:</h3>
 
     	<ol>
 
@@ -63,10 +112,8 @@
 
 		<br /><li><b> (dia 12/05/17) </b><br /> Retomando os estudos através do curso <a href="https://www.codecademy.com/learn/learn-html-css" target="_blank">Learn HTML & CSS: Part I</a> do CodeAcademy.
 
-						<br /> Usar o atributo <b>_blank</b> em links e o atributo <b>alt</b> em imagens, para abrir links em outras abas e para adicionar descrição em imagens, respectivamente.</li>
-
-		<br /><li><b> (dia 12/05/17) </b><br /> Usar o elemento linebreak para poder quebrar uma linha e iniciar um novo paragrafo.</li>
-
+						<br /> Usar o atributo <b>_blank</b> em links e o atributo <b>alt</b> em imagens, para abrir links em outras abas e para adicionar descrição em imagens, respectivamente.
+						<br /> Usar o elemento linebreak para poder quebrar uma linha e iniciar um novo paragrafo.</li>
 		<br /><li><b> (dia 03/08/17) </b><br /> Retomando os estudos depois das férias, aprendi o básico do CSS, implementando pequenas modificações e usando o comando <b>link</b> para conectar os dois arquivos.</li>
 
 
@@ -82,24 +129,46 @@
 
         </ol>
 
-		<div>
 
+        	
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card hovercard">
+                        <div class="cardheader"> </div>
+                        <div class="avatar"> <img alt="" src="./18685942.jpg"> </div>
+                        <div class="info">
+                            <div class="title"> Victor Murilo Balbino Machado </div>
+	                        <div class="desc"> Graduando em Sistemas de Informação na UFG </div>
+				            <div class="desc"> 30 de Junho de 1993 </div>
+				            <div class="desc"> Goiânia/Go - Brasil </div>
+					    <div class="desc"> Telefone: +55 62 9 9282-1073 </div>
+                        </div>
+                        <div class="bottom">
+                            <a class="btn btn-danger btn-sm" rel="publisher"
+                            href="mailto:victormurilo@gmail.com">
+                                <i class="fa fa-behance"></i>
+                            </a>
+                            <a class="btn btn-primary btn-sm" rel="publisher"
+                            href="https://www.facebook.com/pinguimurilo">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a class="btn btn-warning btn-sm" rel="publisher"
+                            href="https://plus.google.com/u/0/+VictorMuriloBalbinoMachado">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        	<h3>Contato:</h3>
-
-		<ul>
-    
-			<li>Facebook <a href="https://www.facebook.com.br/pinguimurilo" target="_blank"> PinguiMurilo</a></li>
-
-	        	<li>E-Mail: <a href="mailto:victormurilo@gmail.com">victormurilo@gmail.com</a></li>
-
-			<li>Telefone: +55 62 9 9282-1073</li>
-
-		</ul>
-
-		</div>
-
-
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 	<script src="http://code.jquery.com/jquery.js"></script>
 
 	<script src="js/bootstrap.min.js"></script>
