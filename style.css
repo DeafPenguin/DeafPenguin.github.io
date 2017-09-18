@@ -41,6 +41,14 @@ img {
     border-radius: 100%;
 }
 
+.container {
+                margin-right: auto;
+                margin-left: 0px;
+                padding-right: 15px;
+                padding-left: 15px;
+                width: 100%;
+            }
+
 .card {
     padding-top: 20px;
     margin: 10px 0 20px 0;
@@ -235,7 +243,7 @@ img {
 }
 
 .card.hovercard .cardheader {
-    background: url("./logo.png");
+    background: url("./Images/logo.png");
     background-size: cover;
     height: 135px;
 }
