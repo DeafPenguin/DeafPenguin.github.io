@@ -9,11 +9,13 @@
     height: 400px;
     background-position: center center;
     background-color: DarkOrange;
+	width: -220px;
 }
 
 /* Body Styling */
 body {
 	background: linear-gradient(45deg, Gray 100%, #EAE0D5 100%);
+	width: -220px;
 }
 
 /* Pharagraph Styling */
